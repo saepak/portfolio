@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
-import { Container } from '@material-ui/core';
-import Header from './components/layout/Header'
 import Nav from './components/layout/Nav'
+import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 
 function App() {

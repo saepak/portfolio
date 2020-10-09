@@ -50,13 +50,20 @@ img { border:none; vertical-align:middle; }
 input, textarea, select { vertical-align:middle; }
 table th, table td { vertical-align:middle; }
 
+/***  Font  ***/
 
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;0,900;1,800&display=swap');
 
 .App {
   width: 100%;
   height: 100%;
+  min-width: 320px;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
+
 
 /***  Header  ***/
 
@@ -68,6 +75,11 @@ table th, table td { vertical-align:middle; }
 
 
 /***  Nav ***/
+
+
+.MuiPaper-elevation4 {
+  box-shadow: 0 0 0!important;
+}
 
 .navBox {
   width: 100%;
@@ -86,6 +98,8 @@ table th, table td { vertical-align:middle; }
   width: 25%;
   text-align: center;
 }
+
+
 
 /***  Footer ***/
 

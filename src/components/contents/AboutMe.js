@@ -5,7 +5,7 @@ import React from 'react'
 const AboutMe = () => {
     return (
         <div className="aboutMeBox">
-            AboutMe
+            <span>AboutMe</span><br></br>
         </div>
     )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 const work = () => {
     return (
         <div className="workBox">
-            work
+            Work
         </div>
     )
 }

@@ -2,6 +2,10 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import { Container, AppBar, Paper, Tabs, Tab, Typography, Box } from '@material-ui/core';
+import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined';
+import AssignmentIndOutlinedIcon from '@material-ui/icons/AssignmentIndOutlined';
+import DevicesOutlinedIcon from '@material-ui/icons/DevicesOutlined';
+import PhoneInTalkOutlinedIcon from '@material-ui/icons/PhoneInTalkOutlined';
 import AboutMe from '../contents/AboutMe'
 import Contact from '../contents/Contact'
 import Resume from '../contents/Resume'
@@ -48,6 +52,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
+
 const Nav = () => {
     
     const classes = useStyles();
@@ -69,10 +74,11 @@ const Nav = () => {
                             onChange={handleChange} 
                             className={classes.indicator}
                         >
-                            <Tab className="tabStyle" label="About Me" {...a11yProps(0)} />
-                            <Tab className="tabStyle" label="Resume" {...a11yProps(1)} />
-                            <Tab className="tabStyle" label="Work" {...a11yProps(2)} />
-                            <Tab className="tabStyle" label="Contact" {...a11yProps(3)} />
+                            <Tab className="tabStyle" icon={<AccountCircleOutlinedIcon />} {...a11yProps(0)}/>
+                            <Tab className="tabStyle" icon={<AssignmentIndOutlinedIcon />} {...a11yProps(1)} />
+                            <Tab className="tabStyle" icon={<DevicesOutlinedIcon />} {...a11yProps(2)} />
+                            <Tab className="tabStyle" icon={<PhoneInTalkOutlinedIcon />} {...a11yProps(3)} />
+
                         </Tabs>
                     </AppBar>
                     <TabPanel value={value} index={0}>
@@ -88,8 +94,6 @@ const Nav = () => {
                        <Contact />
                     </TabPanel>
                 </Container>
-
-
             </div>
         </div>
     )
