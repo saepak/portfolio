@@ -70,7 +70,15 @@ table th, table td { vertical-align:middle; }
 .headerBox {
   width: 100%;
   height: 340px;
-  background-color: #081B70;
+  background: url("./img/header.jpeg") no-repeat 50% 0;
+  background-size: cover;
+  transition: ease-in .5s;
+}
+
+@media screen and (max-width : 600px) {
+  .headerBox {
+    height: 200px;
+  }
 }
 
 
