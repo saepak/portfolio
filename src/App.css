@@ -72,7 +72,7 @@ table th, table td { vertical-align:middle; }
   height: 340px;
   background: url("./img/header.jpeg") no-repeat 50% 0;
   background-size: cover;
-  transition: ease-in .5s;
+  transition: ease-in .3s;
 }
 
 @media screen and (max-width : 600px) {
