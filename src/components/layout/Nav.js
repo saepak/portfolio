@@ -27,7 +27,7 @@ const TabPanel = (props) => {
         )}
       </div>
     );
-  }
+}
   
 TabPanel.propTypes = {
     children: PropTypes.node,
@@ -51,8 +51,6 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-
-
 const Nav = () => {
     
     const classes = useStyles();
@@ -63,38 +61,40 @@ const Nav = () => {
     };
   
     return (
-        <div className="navBox">
-            <div className="navigation">
-                <Container maxWidth="md">
+        <div className="navWrap">
 
-                    <AppBar style={{width:'100%'}} position="static">
-                        <Tabs 
-                            value={value} 
-                            indicatorColor="inherit"
-                            onChange={handleChange} 
-                            className={classes.indicator}
-                        >
-                            <Tab className="tabStyle" icon={<AccountCircleOutlinedIcon />} {...a11yProps(0)}/>
-                            <Tab className="tabStyle" icon={<AssignmentIndOutlinedIcon />} {...a11yProps(1)} />
-                            <Tab className="tabStyle" icon={<DevicesOutlinedIcon />} {...a11yProps(2)} />
-                            <Tab className="tabStyle" icon={<PhoneInTalkOutlinedIcon />} {...a11yProps(3)} />
+            <div className="navBox">
+                <AppBar className="navigation" position="static">
+                    <Tabs 
+                        value={value} 
+                        indicatorColor="inherit"
+                        onChange={handleChange} 
+                        className={classes.indicator}
+                    >
+                        <Tab className="tabStyle" icon={<AccountCircleOutlinedIcon />} {...a11yProps(0)}/>
+                        <Tab className="tabStyle" icon={<AssignmentIndOutlinedIcon />} {...a11yProps(1)} />
+                        <Tab className="tabStyle" icon={<DevicesOutlinedIcon />} {...a11yProps(2)} />
+                        <Tab className="tabStyle" icon={<PhoneInTalkOutlinedIcon />} {...a11yProps(3)} />
 
-                        </Tabs>
-                    </AppBar>
-                    <TabPanel value={value} index={0}>
-                        <AboutMe/>
-                    </TabPanel>
-                    <TabPanel value={value} index={1} >
-                        <Resume />
-                    </TabPanel>
-                    <TabPanel value={value} index={2}>
-                       <Work />
-                    </TabPanel>
-                    <TabPanel value={value} index={3}>
-                       <Contact />
-                    </TabPanel>
-                </Container>
+                    </Tabs>
+                </AppBar>
             </div>
+
+            <Container maxWidth="md" className="subBox">
+                <TabPanel value={value} index={0}>
+                    <AboutMe/>
+                </TabPanel>
+                <TabPanel value={value} index={1} >
+                    <Resume />
+                </TabPanel>
+                <TabPanel value={value} index={2}>
+                <Work />
+                </TabPanel>
+                <TabPanel value={value} index={3}>
+                <Contact />
+                </TabPanel>
+            </Container>
+            
         </div>
     )
 }

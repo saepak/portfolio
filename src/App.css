@@ -52,9 +52,12 @@ table th, table td { vertical-align:middle; }
 
 /***  Font  ***/
 
-
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,800&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;0,900;1,800&display=swap');
+
+
+
+/***  Common  ***/
 
 .App {
   width: 100%;
@@ -64,6 +67,19 @@ table th, table td { vertical-align:middle; }
   font-family: 'Montserrat', sans-serif;
 }
 
+.subBox {
+  min-height: 400px;
+  padding: 0 0 40px 0;
+}
+
+.subTitle {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: left;
+  padding: 30px 0 40px 0;
+}
+
+
 
 /***  Header  ***/
 
@@ -72,7 +88,7 @@ table th, table td { vertical-align:middle; }
   height: 340px;
   background: url("./img/header.jpeg") no-repeat 50% 0;
   background-size: cover;
-  transition: ease-in .5s;
+  transition: ease-in .2s;
 }
 
 @media screen and (max-width : 600px) {
@@ -85,21 +101,21 @@ table th, table td { vertical-align:middle; }
 /***  Nav ***/
 
 
-.MuiPaper-elevation4 {
-  box-shadow: 0 0 0!important;
-}
-
-.navBox {
+.navWrap {
   width: 100%;
-  min-height: 400px;
   background-color: white;
   overflow: hidden;
 }
 
-.navBox .navigation {
+.navWrap .navBox {
   width: 100%;
-  height: 48px;
   background-color: #151634;
+}
+
+.navWrap .navigation {
+  width: 960px;
+  margin: 0 auto;
+  height: 48px;
 }
 
 .tabStyle {
@@ -107,6 +123,38 @@ table th, table td { vertical-align:middle; }
   text-align: center;
 }
 
+.MuiPaper-elevation4 {
+  box-shadow: 0 0 0!important;
+}
+
+
+/***  Work ***/
+
+.workItem {
+  width: 100%;
+  min-height: 180px;
+  background-color: #eee;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.workItem .workItemBtn {
+  width: 100%!important;
+  height: 180px!important;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.workItem .workItemTitle {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif!important;
+  padding: 100px 0 0 0;
+}
+
+.workItem img {
+  max-width: 100%;
+} 
 
 
 /***  Footer ***/

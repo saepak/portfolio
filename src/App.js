@@ -4,7 +4,7 @@ import Nav from './components/layout/Nav'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
         <Header />
