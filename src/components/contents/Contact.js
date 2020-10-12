@@ -1,10 +1,13 @@
 import React from 'react'
+import { Container } from '@material-ui/core'
 
 const Contact = () => {
     return (
-        <div className="contactBox">
-            Contact
-        </div>
+        <Container className="subBox" maxWidth="md">
+            <div className="contactBox">
+                Contact
+            </div>
+        </Container>
     )
 }
 

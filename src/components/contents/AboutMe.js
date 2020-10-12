@@ -1,12 +1,14 @@
-import { Typography } from '@material-ui/core'
+import { Container } from '@material-ui/core'
 import React from 'react'
 
 
 const AboutMe = () => {
     return (
-        <div className="aboutMeBox">
-            <span>AboutMe</span><br></br>
-        </div>
+        <Container className="subBox" maxWidth="md">
+            <div className="aboutMeBox">
+                <span>AboutMe</span><br></br>
+            </div>
+        </Container>
     )
 }
 

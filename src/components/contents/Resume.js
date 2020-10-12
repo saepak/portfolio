@@ -1,10 +1,13 @@
 import React from 'react'
+import { Container } from '@material-ui/core'
 
 const Resume = () => {
     return (
-        <div className="resumeBox">
-            Resume
-        </div>
+        <Container className="subBox" maxWidth="md">
+            <div className="resumeBox">
+                Resume
+            </div>
+        </Container>
     )
 }
 
