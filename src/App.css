@@ -150,7 +150,6 @@
 
 .contactBtn:hover {
   background-color: #B471FF!important;
-  color: #FEF714;
 }
 
 .contactBtn .btnBg {
@@ -164,6 +163,7 @@
 .contactBtn .btnBg:hover {
   background: url("./img/star_hover.png") 2% 25% no-repeat, url("./img/star_hover.png") 98% 25% no-repeat!important; 
   background-size: 14px 14px!important;
+  color: #FEF714!important;
 }
 
 
