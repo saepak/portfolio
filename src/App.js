@@ -1,13 +1,19 @@
 import React from 'react';
-import './App.css';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+
+/* Component */ 
 import Nav from './components/layout/Nav'
 import AboutMe from './components/contents/AboutMe'
 import Resume from './components/contents/Resume'
 import Work from './components/contents/Work'
+import WorkItem from './components/contents/WorkItem'
 import Contact from './components/contents/Contact'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+
+/* Css */
+import './App.css';
+import './reset.css';
 
 const App = () => {
   return (
@@ -16,18 +22,19 @@ const App = () => {
           <Header />
           <Nav />
           <Switch>
-            <Router path="/AboutMe" component={AboutMe}>
+            <Route path="/AboutMe" component={AboutMe}>
               <AboutMe/>
-            </Router>
-            <Router path="/Resume" component={Resume}>
+            </Route>
+            <Route path="/Resume" component={Resume}>
               <Resume/>
-            </Router>
-            <Router path="/Work" component={Work}>
+            </Route>
+            <Route path="/Work" exact component={Work}>
               <Work/>
-            </Router>
-            <Router path="/Contact" component={Contact}>
+            </Route>
+            <Route path="/Contact" component={Contact}>
               <Contact/>
-            </Router>
+            </Route>
+            <Route path="/Work/:id" component={WorkItem} />
           </Switch>
           <Footer />
       </div>

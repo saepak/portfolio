@@ -1,12 +1,13 @@
-import React,{ useState } from 'react'
-import { makeStyles, Container, Grid, Button, Typography, Modal } from '@material-ui/core';
-import {Data} from './Data';
+import React from 'react'
+import { Container, Grid, Button, Typography } from '@material-ui/core';
+import { Data } from './Data'
+import { Link } from 'react-router-dom'
 
 
 
 const Work = () => {
 
-    const [data, setData] = React.useState(Data);
+    const [ data, setData ] = React.useState(Data);
   
     return (
         <Container className="subBox" maxWidth="md">
@@ -17,10 +18,12 @@ const Work = () => {
                     {data.map((item)=> (
                         <Grid item xs={12} sm={4}>
                             <div className="workItem">
-                                <Button className="workItemBtn">
-                                    {/* <img className="workItemBg" src={item.src}/> */}
-                                    <Typography class="workItemTitle">{item.title}</Typography>
-                                </Button>
+                                <Link to={`/Work/${item.id}`}>
+                                    <Button className="workItemBtn">
+                                        {/* <img className="workItemBg" src={item.src}/> */}
+                                        <Typography class="workItemTitle">{item.title}</Typography>
+                                    </Button>
+                                </Link>
                             </div>
                         </Grid>
                     ))}
