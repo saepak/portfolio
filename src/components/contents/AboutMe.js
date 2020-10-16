@@ -6,7 +6,7 @@ const AboutMe = () => {
     return (
         <Container className="subBox" maxWidth="md">
             <div className="aboutMeBox">
-                <span>AboutMe</span><br></br>
+                <h1 className="subTitle">About Me</h1>
             </div>
         </Container>
     )

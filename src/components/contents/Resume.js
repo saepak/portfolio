@@ -5,7 +5,7 @@ const Resume = () => {
     return (
         <Container className="subBox" maxWidth="md">
             <div className="resumeBox">
-                Resume
+                <h1 className="subTitle">Resume</h1>
             </div>
         </Container>
     )
