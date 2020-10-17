@@ -8,9 +8,9 @@ const WorkItem = ({match}) => {
     const [ data, setData ] = React.useState(Data[id]);
 
     return (
-        <Container>
+        <Container className="subBox" maxWidth="md">
             <div className="workItemBox">
-                <div>{data.title}</div>
+                <h3>{data.title}</h3>
                 <div>{data.skill}</div>
             </div>
         </Container>

@@ -5,8 +5,8 @@ export let Data = [
         imgtitle: 'school1',
         src: require('./../../img/work_bg.jpg'),
         alt:'school1',
-        title:'Work1',
-        skill:'PHP, HTML, CSS',
+        title:'work1',
+        skill:'React Native, React Hooks, Native-base, HTML, CSS, JavaScript',
         href:"https://www.school.com",
         desc:"My role and resposibility1"
       },
@@ -15,8 +15,8 @@ export let Data = [
         imgtitle: 'school2',
         src: require('./../../img/work_bg.jpg'),
         alt:'school2',
-        title:'Work2',
-        skill:'HTML, CSS, Javascript',
+        title:'work2',
+        skill:'React, React Hooks, Material-UI, HTML, CSS, Javascript',
         href:"https://www.school.com",
         desc:"My role and resposibility2"
       },
@@ -25,10 +25,29 @@ export let Data = [
         imgtitle: 'school3',
         src: require('./../../img/work_bg.jpg'),
         alt:'school3',
-        title:'Work3',
-        skill:'React Native',
+        title:'work3',
+        skill:'React, React Hooks, HTML, CSS, Javascript',
         href:"https://www.school.com",
         desc:"My role and resposibility3"
       },
-
+      {
+        id:4,
+        imgtitle: 'school4',
+        src: require('./../../img/work_bg.jpg'),
+        alt:'school3',
+        title:'work4',
+        skill:'HTML, CSS, JavaScript, Firebase',
+        href:"https://www.school.com",
+        desc:"My role and resposibility3"
+      },
+      {
+        id:5,
+        imgtitle: 'school4',
+        src: require('./../../img/work_bg.jpg'),
+        alt:'school3',
+        title:'work5',
+        skill:'PHP, Wordpress, SASS',
+        href:"https://www.school.com",
+        desc:"My role and resposibility3"
+      },
 ]
