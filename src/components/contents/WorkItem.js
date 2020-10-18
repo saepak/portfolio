@@ -20,6 +20,9 @@ const WorkItem = ({match}) => {
         <Container className="subBox" maxWidth="md">
             <div className="workItemBox">
                 <h3>{data.title}</h3>
+                {
+                    data.href.length > 1 ? <div className="link"><a href={data.href} target="_blank">{data.href}</a></div> : <div></div>
+                }
                 <div className="skills">
                     { data.skills.map((item)=> {
                         return(
