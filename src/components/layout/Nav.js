@@ -16,7 +16,7 @@ const Nav = () => {
                 <ul className="navigation">
                     <li>
                         <Button>
-                            <Link to="/AboutMe">
+                            <Link to="/">
                                 <AccountCircleOutlinedIcon style={{ color: 'white' }}/>
                             </Link>
                         </Button>

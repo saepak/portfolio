@@ -20,7 +20,7 @@ const Work = () => {
                             <div className="workItem">
                                 <Link to={`/Work/${item.id}`}>
                                     <Button className="workItemBtn">
-                                        {/* <img className="workItemBg" src={item.src}/> */}
+                                        {/* <img className="workItemBg" src={item.bg}/> */}
                                         <Typography class="workItemTitle">{item.title}</Typography>
                                     </Button>
                                 </Link>

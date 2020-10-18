@@ -3,51 +3,48 @@ export let Data = [
     {
         id:1,
         imgtitle: 'school1',
-        src: require('./../../img/work_bg.jpg'),
+        bg: require('./../../img/work_bg.jpg'),
+        pic: require('./../../img/sample.png'),
         alt:'school1',
         title:'work1',
-        skill:'React Native, React Hooks, Native-base, HTML, CSS, JavaScript',
+        skills: [
+          { skill:'React-Native' }, 
+          { skill:'React-Hooks' },
+          { skill:'Native-base' },
+          { skill:'HTML/CSS' }
+        ],
         href:"https://www.school.com",
-        desc:"My role and resposibility1"
+        desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus malesuada ligula. Duis vitae accumsan diam. Mauris at sollicitudin lorem. In luctus felis lectus, aliquet sollicitudin metus tristique et."
       },
       {
         id:2,
         imgtitle: 'school2',
-        src: require('./../../img/work_bg.jpg'),
+        bg: require('./../../img/work_bg.jpg'),
+        pic: require('./../../img/sample.png'),
         alt:'school2',
         title:'work2',
-        skill:'React, React Hooks, Material-UI, HTML, CSS, Javascript',
+        skills: [
+          { skill:'React' }, 
+          { skill:'React-Hooks' },
+          { skill:'Material-UI' },
+          { skill:'HTML/CSS' }
+        ],
         href:"https://www.school.com",
-        desc:"My role and resposibility2"
+        desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus malesuada ligula. Duis vitae accumsan diam. Mauris at sollicitudin lorem. In luctus felis lectus, aliquet sollicitudin metus tristique et."
       },
       {
         id:3,
         imgtitle: 'school3',
-        src: require('./../../img/work_bg.jpg'),
+        bg: require('./../../img/work_bg.jpg'),
+        pic: require('./../../img/sample.png'),
         alt:'school3',
         title:'work3',
-        skill:'React, React Hooks, HTML, CSS, Javascript',
+        skills: [
+          { skill:'HTML/CSS' }, 
+          { skill:'JavaScript' },
+          { skill:'Firebase' },
+        ],
         href:"https://www.school.com",
-        desc:"My role and resposibility3"
-      },
-      {
-        id:4,
-        imgtitle: 'school4',
-        src: require('./../../img/work_bg.jpg'),
-        alt:'school3',
-        title:'work4',
-        skill:'HTML, CSS, JavaScript, Firebase',
-        href:"https://www.school.com",
-        desc:"My role and resposibility3"
-      },
-      {
-        id:5,
-        imgtitle: 'school4',
-        src: require('./../../img/work_bg.jpg'),
-        alt:'school3',
-        title:'work5',
-        skill:'PHP, Wordpress, SASS',
-        href:"https://www.school.com",
-        desc:"My role and resposibility3"
+        desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus malesuada ligula. Duis vitae accumsan diam. Mauris at sollicitudin lorem. In luctus felis lectus, aliquet sollicitudin metus tristique et."
       },
 ]

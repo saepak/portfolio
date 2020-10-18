@@ -82,16 +82,20 @@
 
 .navWrap .navigation li button {
   width: 100%;
-  box-sizing: border-box;
-  padding-top: 12px;
+  height: 100%;
 }
 
 .navWrap .navigation li a {
   display: inline-block;
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
+  padding: 6px 0 0 0;
 }
 
+.MuiButton-text {
+  padding: 0!important;
+}
 /***  Work ***/
 
 .workItem {
@@ -134,13 +138,36 @@
 } 
 
 .workItemBox {
+  padding: 50px 0 10px 0;
   text-align: left;
 }
 
 .workItemBox h3 {
   font-size: 30px;
   font-weight: bold;
-  padding: 50px 0 30px 0;
+}
+
+.workItemBox img {
+  max-width: 100%;
+}
+
+.workItemBox .skills {
+  margin: 10px 0 30px 0;
+}
+
+.workItemBox .eachSkill {
+  display: inline-block;
+  padding: 5px 12px;
+  border: 1px solid #dbdada;
+  border-radius: 25px;
+  font-size: 13px;
+  margin-right: 6px;
+}
+
+.workItemBox .desc {
+  line-height: 1.4;
+  font-weight: lighter;
+  margin: 0 0 25px 0;
 }
 
 
