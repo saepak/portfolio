@@ -47,6 +47,13 @@
 }
 
 
+/***  About Me  ***/
+
+.aboutMeBox p {
+  text-align: left!important;
+  line-height: 1.5;
+}
+
 /***  Nav ***/
 
 
@@ -223,4 +230,6 @@
   width: 100%;
   padding: 25px 0;
   background-color: #f1f1f1;
+  font-size: 12px;
+  color: #888;
 }
