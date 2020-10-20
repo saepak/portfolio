@@ -4,6 +4,7 @@ export let Data = [
         id:1,
         title:'work1',
         href:"https://www.school.com",
+        github:"https://github.com/",
         skills: [
           { skill:'React-Native' }, 
           { skill:'React-Hooks' },
@@ -19,6 +20,7 @@ export let Data = [
         id:2,
         title:'work2',
         href:"https://www.school.com",
+        github:"https://github.com/",
         skills: [
           { skill:'React' }, 
           { skill:'React-Hooks' },
@@ -34,6 +36,7 @@ export let Data = [
         id:3,
         title:'work3',
         href:"",
+        github:"https://github.com/",
         skills: [
           { skill:'HTML/CSS' }, 
           { skill:'JavaScript' },

@@ -34,6 +34,7 @@ const WorkItem = ({match}) => {
                   }
                 </div>
                 <div className="desc">{data.desc}</div>
+                <div className="github"><a href={data.github} target="_blank">View on Github</a></div>
                 <div>
                     <img src={data.pic}></img>
                 </div>

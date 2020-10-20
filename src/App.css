@@ -149,7 +149,6 @@
   text-align: left;
 }
 
-
 @media screen and (max-width : 600px) {
   .workItemBox {
     padding: 30px 0 10px 0;
@@ -192,6 +191,18 @@
   margin: 0 0 25px 0;
 }
 
+.workItemBox .github {
+  text-align: center;
+  padding: 10px 0 30px;
+}
+
+.workItemBox .github a {
+  display: inline-block!important;
+  padding: 10px 40px; 
+  border-radius: 25px;
+  background-color: #B471FF!important;
+  color: white!important;
+}
 
 /***  Contact ***/
 
