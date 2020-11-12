@@ -206,7 +206,7 @@
 
 /***  Contact ***/
 
-.contactBtn {
+/* .contactBtn {
   width: 100%;
   height: 58px;
   border-radius: 30px!important;
@@ -231,7 +231,58 @@
   background: url("./img/star_hover.png") 2% 25% no-repeat, url("./img/star_hover.png") 98% 25% no-repeat!important; 
   background-size: 14px 14px!important;
   color: #FEF714!important;
+} */
+
+
+
+
+
+
+.contactBtn {
+  width: 100%;
+  height: 58px;
+  min-height: 0!important;
+  display: inline-block;
+  min-width: 0;
+  border-radius: 30px!important;
+  margin-bottom: 15px!important;
+  background-color: #eee!important;
+  font-size: 15px!important;
 }
+
+.contactBtn:hover {
+  background-color: #B471FF!important;
+}
+
+.btnBg {
+  display: inline-block;
+  width: 100%;
+  height: 58px;
+  line-height: 58px;
+  font-size: 15px;
+  background-color: #B471FF!important;
+  border-radius: 30px!important;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.btnBg:hover {
+  color: #FEF714!important;
+}
+
+.btnBg span {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: url("./img/star.png") 2% 48% no-repeat, url("./img/star.png") 98% 48% no-repeat!important; 
+  background-size: 14px 14px!important;
+}
+
+.btnBg:hover span {
+  background: url("./img/star_hover.png") 2% 48% no-repeat, url("./img/star_hover.png") 98% 48% no-repeat!important; 
+  background-size: 14px 14px!important;
+}
+
 
 
 
