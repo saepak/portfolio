@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Grid, Button, Typography } from '@material-ui/core';
+import { Container, Grid, Typography, Card, CardContent } from '@material-ui/core';
 import { Data } from './Data'
 import { Link } from 'react-router-dom'
 
@@ -17,16 +17,24 @@ const Work = () => {
                     
                     {data.map((item)=> (
                         <Grid item xs={12} sm={4}>
-                            <div className="workItem">
-                                <Link to={`/Work/${item.id}`}>
-                                    <Button className="workItemBtn">
-                                        {/* <img className="workItemBg" src={item.bg}/> */}
-                                        <Typography class="workItemTitle">{item.title}</Typography>
-                                    </Button>
-                                </Link>
-                            </div>
+                            <Card className="cardBox">
+                                <CardContent>
+                                    <Typography className="typo cardTitle" variant="h6" component="h3">
+                                        {item.title}
+                                    </Typography>
+                                    <Typography className="typo cardDesc" color="textSecondary">
+                                        {item.desc}
+                                    </Typography>
+                                </CardContent>
+                                <div className="linkBtn">
+                                    <Link to={`/Work/${item.id}`}>
+                                        <Typography class="workItemTitle">Learn More</Typography>
+                                    </Link>
+                                </div>
+                            </Card>
                         </Grid>
                     ))}
+                    
                 </Grid>
             </div>
         </Container>
