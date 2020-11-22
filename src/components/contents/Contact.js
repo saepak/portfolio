@@ -6,7 +6,7 @@ const Contact = () => {
         <Container className="subBox" maxWidth="md">
 
             <h1 className="subTitle">Contact</h1>
-            <div className="contactBtnBox">
+            <div>
                 <a href="mailto:saebyeolpak@gmail.com" className="btnBg">
                     <span>E-mail</span>
                 </a>
@@ -18,7 +18,6 @@ const Contact = () => {
                 <a href="https://www.linkedin.com/in/saebyeolpak/" target="_blank" className="btnBg">
                     <span>Linkedin</span>
                 </a>
-
             </div>
 
         </Container>

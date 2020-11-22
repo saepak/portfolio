@@ -1,9 +1,7 @@
 import React from 'react'
-import { Container, Grid, Typography, Card, CardContent } from '@material-ui/core';
+import { Container, Typography } from '@material-ui/core';
 import { Data } from './Data'
 import { Link } from 'react-router-dom'
-
-
 
 const Work = () => {
 
@@ -13,29 +11,24 @@ const Work = () => {
         <Container className="subBox" maxWidth="md">
             <div className="workBox">
                 <h1 className="subTitle">Work</h1>
-                <Grid container spacing={2}>
-                    
+                <div className="workItem">
                     {data.map((item)=> (
-                        <Grid item xs={12} sm={4}>
-                            <Card className="cardBox">
-                                <CardContent>
-                                    <Typography className="typo cardTitle" variant="h6" component="h3">
-                                        {item.title}
-                                    </Typography>
-                                    <Typography className="typo cardDesc" color="textSecondary">
-                                        {item.desc}
-                                    </Typography>
-                                </CardContent>
-                                <div className="linkBtn">
-                                    <Link to={`/Work/${item.id}`}>
-                                        <Typography class="workItemTitle">Learn More</Typography>
-                                    </Link>
-                                </div>
-                            </Card>
-                        </Grid>
+                        <div className="workItemGrid">
+                            <div className="cardBox">
+                                <Typography className="typo cardTitle" variant="h6" component="h3">
+                                    {item.title}
+                                </Typography>
+                                <Typography className="typo cardDesc" color="textSecondary">
+                                    {item.desc}
+                                </Typography>
+
+                                <Link to={`/Work/${item.id}`}>
+                                    <Typography class="workItemTitle">Learn More +</Typography>
+                                </Link>
+                            </div>
+                        </div>
                     ))}
-                    
-                </Grid>
+                </div>
             </div>
         </Container>
     )

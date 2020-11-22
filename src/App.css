@@ -39,6 +39,78 @@
   background: url("./img/header.jpg") no-repeat 50% 0;
   background-size: cover;
   transition: ease-in .2s;
+  position: relative;
+}
+
+.headerBox .starIcon {
+  position: absolute;
+}
+
+.headerBox .icon1 {
+  top: 20%;
+  left: 10%;
+  width: 20px;
+  height: auto;
+  animation: star1 1s infinite linear alternate;
+}
+
+@keyframes star1 {
+  from  { width: 20px; }
+  to { width: 15px; }
+}
+
+.headerBox .icon2 {
+  top: 30%;
+  left: 20%;
+  width: 15px;
+  transform: rotate(10deg);
+}
+
+.headerBox .icon3 {
+  top: 10%;
+  right: 10%;
+  width: 20px;
+  transform: rotate(-20deg);
+}
+
+.headerBox .icon4 {
+  bottom: 35%;
+  right: 25%;
+  width: 12px;
+  transform: rotate(70deg);
+}
+
+.headerBox .icon5 {
+  top: 15%;
+  right: 6%;
+  width: 12px;
+}
+
+.headerBox .icon6 {
+  bottom: 4%;
+  right: 4%;
+  width: 10px;
+  transform: rotate(20deg);
+}
+
+.headerBox .icon7 {
+  bottom: 10%;
+  left: 3%;
+  width: 10px;
+}
+
+.headerBox .icon8 {
+  bottom: 35%;
+  right: 10%;
+  width: 50px;
+  animation: ufo 3s infinite linear alternate;
+}
+
+@keyframes ufo {
+  0%  {bottom: 35%; right: 10% }
+  25%  {bottom: 50%; right: 5% }
+  50%  {bottom: 50%; right: 15% }
+  100%  {bottom: 35%; right: 10% }
 }
 
 @media screen and (max-width : 600px) {
@@ -128,19 +200,27 @@
 /***  Work ***/
 
 .workItem {
-  width: 100%;
-  height: 50px; 
-  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.workItem .workItemGrid {
+  box-sizing: border-box;
+  margin: 0 10px 10px 0;
 }
 
 .workBox .cardBox {
   box-sizing: border-box;
-  padding: 0 10px 10px;
-  min-height: 190px;
+  padding: 25px 18px 55px;
+  width: 100%;
+  height: 100%;
   position: relative;
   background-color: #fcfcfc;
+  border-radius: 4px;
+  box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f1f1f1;
 }
-
 
 .workBox .typo {
   font-family: 'Montserrat', sans-serif!important;
@@ -153,47 +233,43 @@
   background-size: 12px 12px;
 }
 
-@media screen and ( max-width: 860px) {
-  .workBox .cardTitle {
-    font-size: 17px!important;
-  }
-}
-
 .workBox .cardDesc {
   width: 100%;
-  min-height: 60px;
   text-align: left;
   padding-top: 10px;
   font-size: 14px;
 }
 
-.workBox .linkBtn {
-  width: 100%;
-  text-align: center;
-}
-
-.workBox .linkBtn a {
+.workBox a {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  margin-left: -55px;
   display: inline-block;
-  width: 100%;
-  padding: 5px 0;
+  padding: 10px;
+  font-size: 14px;
 }
 
+@media screen and (max-width: 700px) {
+  .workItem {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
-.workItem img {
-  max-width: 100%;
-} 
+@media screen and (max-width: 600px) {
+  .workItem {
+    grid-template-columns: 1fr;
+  }
+  .workItem .workItemGrid {
+    margin: 0 0 10px 0;
+  }
+}
+
 
 .workItemBox {
   padding: 50px 0 10px 0;
   text-align: left;
 }
-
-@media screen and (max-width : 600px) {
-  .workItemBox {
-    padding: 30px 0 10px 0;
-  }
-}
-
 
 .workItemBox h3 {
   font-size: 30px;
@@ -256,24 +332,14 @@
   color: white!important;
 }
 
+@media screen and (max-width : 600px) {
+  .workItemBox {
+    padding: 30px 0 10px 0;
+  }
+}
+
 /***  Contact ***/
 
-
-.contactBtn {
-  width: 100%;
-  height: 58px;
-  min-height: 0!important;
-  display: inline-block;
-  min-width: 0;
-  border-radius: 30px!important;
-  margin-bottom: 15px!important;
-  background-color: #eee!important;
-  font-size: 15px!important;
-}
-
-.contactBtn:hover {
-  background-color: #BE86FF!important;
-}
 
 .btnBg {
   display: inline-block;
@@ -281,14 +347,17 @@
   height: 58px;
   line-height: 58px;
   font-size: 15px;
-  background-color: #BE86FF!important;
+  background-color: #fcfcfc!important;
   border-radius: 30px!important;
   margin-bottom: 10px;
   font-weight: bolder;
+  box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f1f1f1;
 }
 
 .btnBg:hover {
   color: #FEF714!important;
+  background-color: #BE86FF!important;
 }
 
 .btnBg span {
