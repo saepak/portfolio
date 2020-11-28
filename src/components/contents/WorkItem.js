@@ -58,9 +58,15 @@ const WorkItem = ({match}) => {
                     </ul>
                 </div>
                 <div className="github"><a href={data.github} target="_blank">View on Github</a></div>
-                <div>
+                {/* <div>
                     <img src={data.pic}></img>
+                </div> */}
+
+                <div className="workShow">
+                    <div className="workShowInside"></div>
                 </div>
+
+                
             </div>
         </Container>
     )

@@ -4,7 +4,6 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 /* Component */ 
 import Nav from './components/layout/Nav'
 import AboutMe from './components/contents/AboutMe'
-import Resume from './components/contents/Resume'
 import Work from './components/contents/Work'
 import WorkItem from './components/contents/WorkItem'
 import Contact from './components/contents/Contact'
@@ -24,9 +23,6 @@ const App = () => {
           <Switch>
             <Route exact path="/" component={AboutMe}>
               <AboutMe/>
-            </Route>
-            <Route path="/Resume" component={Resume}>
-              <Resume/>
             </Route>
             <Route path="/Work" exact component={Work}>
               <Work/>

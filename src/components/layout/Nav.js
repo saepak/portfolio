@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import { Button } from '@material-ui/core';
 import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined';
-import AssignmentIndOutlinedIcon from '@material-ui/icons/AssignmentIndOutlined';
 import DevicesOutlinedIcon from '@material-ui/icons/DevicesOutlined';
 import PhoneInTalkOutlinedIcon from '@material-ui/icons/PhoneInTalkOutlined';
 
@@ -18,13 +17,6 @@ const Nav = () => {
                         <Button>
                             <Link to="/">
                                 <AccountCircleOutlinedIcon style={{ color: 'white' }}/>
-                            </Link>
-                        </Button>
-                    </li>
-                    <li>
-                        <Button>
-                            <Link to="/Resume">
-                                <AssignmentIndOutlinedIcon style={{ color: 'white' }}/>
                             </Link>
                         </Button>
                     </li>
