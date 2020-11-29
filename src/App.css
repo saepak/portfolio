@@ -331,21 +331,22 @@
 .workItemBox .myRole ul li {
   background: url("./img/star.png") no-repeat 5px 6px;
   background-size: 8px 8px; 
-  padding: 0 0 0 20px;
+  padding: 0 0 3px 20px;
 }
 
-.workItemBox .github {
+
+.btnWrapper {
   text-align: center;
   padding: 30px 0 30px;
 }
 
-.workItemBox .github a {
-  display: inline-block!important;
-  padding: 10px 40px; 
+.btnWrapper .btnP {
   border-radius: 25px;
   background-color: #BE86FF!important;
   color: white!important;
+  padding: 10px 25px;
 }
+
 
 @media screen and (max-width : 600px) {
   .workItemBox {
@@ -415,7 +416,7 @@
 
 
 
-/****/
+/**나중에 삭제**/
 
 .workShow {
   width: 100%;
@@ -430,3 +431,4 @@
   background: url("./img/kovan1.png") 15% 50% no-repeat, url("./img/kovan2.png") 50% 50% no-repeat, url("./img/kovan3.png") 85% 50% no-repeat;
   background-size: 200px auto;
 }
+

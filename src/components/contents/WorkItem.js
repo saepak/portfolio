@@ -1,6 +1,6 @@
 import React from 'react'
 import { Data } from './Data'
-import { Container } from '@material-ui/core';
+import { Container, Button, Link } from '@material-ui/core';
 
 
 const WorkItem = ({match}) => {
@@ -57,10 +57,16 @@ const WorkItem = ({match}) => {
                         }
                     </ul>
                 </div>
-                <div className="github"><a href={data.github} target="_blank">View on Github</a></div>
-                {/* <div>
-                    <img src={data.pic}></img>
-                </div> */}
+                <div className="btnWrapper">
+                    <Link href={data.github} target="_blank" style={{textDecoration:'none'}}>
+                        <Button 
+                            className="btnP" 
+                            variant="contained"
+                        >
+                            View on Github
+                        </Button>
+                    </Link>
+                </div>
 
                 <div className="workShow">
                     <div className="workShowInside"></div>

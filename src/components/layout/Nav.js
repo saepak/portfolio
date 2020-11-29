@@ -6,7 +6,6 @@ import DevicesOutlinedIcon from '@material-ui/icons/DevicesOutlined';
 import PhoneInTalkOutlinedIcon from '@material-ui/icons/PhoneInTalkOutlined';
 
 
-
 const Nav = () => {
   
     return (
