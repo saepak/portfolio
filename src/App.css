@@ -1,7 +1,5 @@
 
 /***  Font  ***/
-
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,800&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;0,900;1,800&display=swap');
 
 
@@ -13,8 +11,13 @@
   height: 100%;
   min-width: 320px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.4;
+  font-family: 'Montserrat', sans-serif!important;
+  line-height: 1.4!important;
+}
+
+.MuiTypography-h6, .MuiTypography-body1 {
+  font-family: 'Montserrat', sans-serif!important;
+  line-height: 1.4!important;
 }
 
 .subBox {
@@ -36,7 +39,7 @@
 .headerBox {
   width: 100%;
   height: 200px;
-  background:#02007B url("./img/header.jpeg") no-repeat 50% 0;
+  background:#02007B url("./img/headerBG.jpg") no-repeat 50% 0;
   background-size: auto 100%;
   transition: ease-in .2s;
   position: relative;
@@ -45,6 +48,25 @@
 .headerBox .starIcon {
   position: absolute;
 }
+
+.headerBox .me {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  width: 100px;
+  transform: translate(-50%, 0);
+  animation: 2s linear meHeader;
+}
+
+@keyframes meHeader {
+  0%  { top: -100px; }
+  70% { top: 30px; }
+  80% { top: 20px; }
+  90% { top: 30px; }
+  95% { top: 25px; }
+  100% { top: 30px; }
+}
+
 
 .headerBox .icon1 {
   top: 20%;
@@ -103,14 +125,14 @@
   bottom: 35%;
   right: 10%;
   width: 50px;
-  animation: ufo 3s infinite linear alternate;
+  animation: ufo 4s infinite linear alternate;
 }
 
 @keyframes ufo {
-  0%  {bottom: 35%; right: 10% }
-  25%  {bottom: 50%; right: 5% }
-  50%  {bottom: 50%; right: 15% }
-  100%  {bottom: 35%; right: 10% }
+  0%  {bottom: 35%; right: 10%; }
+  25%  {bottom: 50%; right: 5%; transform: rotate(50deg); }
+  50%  {bottom: 50%; right: 15%; }
+  100%  {bottom: 35%; right: 10%; }
 }
 
 @media screen and (max-width : 600px) {
@@ -237,14 +259,15 @@
   border: 1px solid #f1f1f1;
 }
 
-.workBox .typo {
-  font-family: 'Montserrat', sans-serif!important;
-  line-height: 1.4;
-}
-
 .workBox .cardTitle {
   padding-top: 18px;
   background: url(./img/star.png) no-repeat 50% 0%;
+  background-size: 12px 12px;
+}
+
+.workBox .cardTitle_p {
+  padding-top: 18px;
+  background: url(./img/star_pink.png) no-repeat 50% 0%;
   background-size: 12px 12px;
 }
 
@@ -264,6 +287,28 @@
   padding: 10px;
   font-size: 14px;
 }
+
+.workBox .group {
+  text-align: left;
+  font-size: 13px;
+  color: #777;
+  padding: 10px 0 0 0;
+}
+
+.workBox .group span {
+  display: inline-block;
+  background: url(./img/star.png) no-repeat 0 4px;
+  background-size: 10px 10px;
+  padding: 0 15px 10px 10px;
+  text-indent: 4px;
+}
+
+.workBox .group span.pink {
+  background: url(./img/star_pink.png) no-repeat 0 4px;
+  background-size: 10px 10px;
+}
+
+
 
 @media screen and (max-width: 700px) {
   .workItem {
@@ -431,4 +476,151 @@
   background: url("./img/kovan1.png") 15% 50% no-repeat, url("./img/kovan2.png") 50% 50% no-repeat, url("./img/kovan3.png") 85% 50% no-repeat;
   background-size: 200px auto;
 }
+
+.splashWrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #02007B;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.splashWrapper .icon {
+  z-index: 999;
+  position: fixed;
+}
+
+.splashWrapper .icon1 {
+  top: 20%;
+  left: 10%;
+}
+
+.splashWrapper .icon2 {
+  top: 10%;
+  right: 10%;
+}
+
+.splashWrapper .icon3 {
+  bottom: 10%;
+  right: 5%;
+  height: 30px;
+}
+
+.splashWrapper .icon4 {
+  bottom: 20%;
+  left: 30%;
+}
+
+.splashWrapper .icon5 {
+  bottom: 30%;
+  left: 15%;
+  width: 50px;
+  transform: rotate(50deg);
+}
+
+.splashWrapper .icon6 {
+  bottom: 40%;
+  left: 35%;
+  width: 15px;
+}
+
+.splashWrapper .icon7 {
+  top: 10%;
+  right: 35%;
+  width: 20px;
+  transform: rotate(90deg);
+}
+
+.splashWrapper .icon8 {
+  top: 8%;
+  right: 15%;
+  width: 10px;
+  transform: rotate(50deg);
+}
+
+.splashWrapper .icon9 {
+  right: 15%;
+  bottom: 18%;
+  width: 24px;
+  transform: rotate(-20deg);
+}
+
+.splashWrapper .icon10 {
+  left: 15%;
+  top: 5%;
+  width: 15px;
+  transform: rotate(30deg);
+}
+
+.splashWrapper .icon11 {
+  left: 3%;
+  bottom: 20%;
+  width: 15px;
+  transform: rotate(80deg);
+}
+
+
+.splashWrapper .me {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  z-index: 999;
+  animation: 1s linear 3s meMoving;
+}
+
+@keyframes meMoving {
+  from  { top: 50%; }
+  to { top: 110%; }
+}
+
+
+.splashWrapper .circle {
+  background-color: rgba(250, 250, 250, .07);
+  border-radius: 75%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.splashWrapper .circle1 {
+  width: 300px;
+  height: 300px;
+  animation: 1s linear 0s firstCircle;
+}
+
+.splashWrapper .circle2 {
+  width: 500px;
+  height: 500px;
+  animation: 2s linear 0s secondCircle;
+}
+
+.splashWrapper .circle3 {
+  width: 1000px;
+  height: 1000px;
+  animation: 3s linear 0s thirdCircle;
+}
+
+@keyframes firstCircle {
+  from  { width: 100px; height: 100px; }
+  to { width: 300px; height: 300px; }
+}
+
+@keyframes secondCircle {
+  from  { width: 100px; height: 100px; }
+  to { width: 500px; height: 500px; }
+}
+
+@keyframes thirdCircle {
+  from  { width: 100px; height: 100px; }
+  to { width: 1000px; height: 1000px; }
+}
+
+
 

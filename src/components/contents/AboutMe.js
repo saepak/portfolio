@@ -1,16 +1,25 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Container, Button } from '@material-ui/core'
 import resume from './../../img/resume.pdf'
+import Splash from './../layout/Splash'
+
 
 
 const AboutMe = () => {
 
+    useEffect(() => {
+        const showSplash = setTimeout(() => {
+          return <Splash />
+        }, 3000);
+        return () => clearTimeout(showSplash);
+      }, []);
+
     return (
-        <Container className="subBox" maxWidth="md">
-            <div className="aboutMeBox">
-                <h1 className="subTitle">About Me</h1>
-                <div className="aboutMeDetail">
-                    <h3>Hi, I’m Saebyeol Pak, Vancouver based front-end developer.</h3>
+        <Container className='subBox' maxWidth='md'>
+            <div className='aboutMeBox'>
+                <h1 className='subTitle'>About Me</h1>
+                <div className='aboutMeDetail'>
+                    <h3>Hi, I’m Sae Pak, Vancouver based front-end developer.</h3>
                     <p>Since starting my journey as a front-end developer, I have enjoyed the process of making web projects that are easy to use and accessible to all. I love to learn new technology and keep track of lessons learned. I / I am...</p>
 
                     <ul>
@@ -21,10 +30,10 @@ const AboutMe = () => {
                     </ul>
                     <p>Find out more about me!</p>
 
-                    <div className="btnWrapper">
+                    <div className='btnWrapper'>
                         <Button 
-                            className="btnP" 
-                            variant="contained"
+                            className='btnP' 
+                            variant='contained'
                             onClick={()=> window.open(resume)}
                         >
                             Download Resume

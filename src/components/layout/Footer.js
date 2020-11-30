@@ -2,9 +2,9 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className="footerBox">
+        <footer className='footerBox'>
             Saebyeol Pak Portfolio Website
-        </div>
+        </footer>
     )
 }
 
