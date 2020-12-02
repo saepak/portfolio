@@ -55,7 +55,7 @@
   left: 50%;
   width: 100px;
   transform: translate(-50%, 0);
-  animation: 2s linear meHeader;
+  animation: 2s linear 3.5s meHeader;
 }
 
 @keyframes meHeader {
@@ -571,14 +571,8 @@
   transform: translate(-50%, -50%);
   width: 100px;
   z-index: 999;
-  animation: 1s linear 3s meMoving;
+  animation: 1.1s linear 3s meMoving;
 }
-
-@keyframes meMoving {
-  from  { top: 50%; }
-  to { top: 110%; }
-}
-
 
 .splashWrapper .circle {
   background-color: rgba(250, 250, 250, .07);
@@ -606,6 +600,12 @@
   height: 1000px;
   animation: 3s linear 0s thirdCircle;
 }
+
+@keyframes meMoving {
+  from  { top: 50%; }
+  to { top: 110%; }
+}
+
 
 @keyframes firstCircle {
   from  { width: 100px; height: 100px; }

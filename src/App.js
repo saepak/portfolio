@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 /* Component */ 
@@ -17,20 +17,23 @@ import './reset.css';
 
 const App = () => {
 
-  const showNewScreen = () => {
-    let showSplash
-    clearTimeout(showSplash);
-    showSplash = setTimeout(()=> {
-      console.log('haha')
-    },1000)
+  const Expire = () => {
+    const [visible, setVisible] = useState(true);
+  
+    useEffect(() => {
+      setTimeout(() => {
+        setVisible(false);
+      }, 3800);
+    }, 3800);
+  
+    return visible ? <Splash /> : ""
   }
-
 
 
   return (
     <Router>
       <div className="App">
-          {showNewScreen()}
+          {Expire()}
           <Header />
           <Nav />
           <Switch>

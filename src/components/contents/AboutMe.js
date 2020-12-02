@@ -1,18 +1,9 @@
 import React, {useEffect} from 'react'
 import { Container, Button } from '@material-ui/core'
 import resume from './../../img/resume.pdf'
-import Splash from './../layout/Splash'
-
 
 
 const AboutMe = () => {
-
-    useEffect(() => {
-        const showSplash = setTimeout(() => {
-          return <Splash />
-        }, 3000);
-        return () => clearTimeout(showSplash);
-      }, []);
 
     return (
         <Container className='subBox' maxWidth='md'>
