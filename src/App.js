@@ -23,8 +23,8 @@ const App = () => {
     useEffect(() => {
       setTimeout(() => {
         setVisible(false);
-      }, 3800);
-    }, 3800);
+      }, 3700);
+    }, 3700);
   
     return visible ? <Splash /> : ""
   }

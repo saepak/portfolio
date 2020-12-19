@@ -7,7 +7,6 @@ import icon4 from './../../img/icon4.png'
 import icon5 from './../../img/icon5.png'
 import icon6 from './../../img/icon6.png'
 
-
 const Splash = () => {
     return (
         <div className='splashWrapper'>
@@ -31,3 +30,5 @@ const Splash = () => {
 }
 
 export default Splash
+
+// astronaut icon is from https://www.flaticon.com/free-icon/astronaut_922645?term=astronaut&page=1&position=29&related_item_id=922645

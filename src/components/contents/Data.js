@@ -12,7 +12,7 @@ export let Data = [
         { skill:'Material-UI'},
         { skill:'SASS'}
       ],
-      pic: require('./../../img/sample.png'),
+      pic: require('./../../img/work01.png'),
       desc:'A property management system for professional real estate agents.',
       roles: [
         { role:'Built the front-end of Easy Realty System’s property lists and fetched API using React.js, React Hooks and Material-UI.'},
@@ -31,7 +31,7 @@ export let Data = [
         { skill:'React-Hooks' },
         { skill:'Native-base' },
       ],
-      pic: require('./../../img/sample.png'),
+      pic: require('./../../img/work02.png'),
       desc:'An all-in-one group management solution with 7 plug-ins',
       roles: [
         { role:'Collaborated with other students to plan, executed a native app.' },
@@ -52,7 +52,7 @@ export let Data = [
         { skill:'Material-UI'},
         { skill:'TMDB API'},
       ],
-      pic: require('./../../img/sample.png'),
+      pic: require('./../../img/work04.png'),
       desc:'A web app that lets you search for movies and TV shows.',
       roles: [
         { role:'Created search and filter features using React.js.'},

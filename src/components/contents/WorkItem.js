@@ -66,8 +66,8 @@ const WorkItem = ({match}) => {
                     </Link>
                 </div>
 
-                <div className='workShow'>
-                    <div className='workShowInside'></div>
+                <div className='workGallery'>
+                    <img src={data.pic}/>
                 </div>
 
                 

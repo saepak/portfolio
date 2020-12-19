@@ -1,9 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Button } from '@material-ui/core';
-import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined';
-import DevicesOutlinedIcon from '@material-ui/icons/DevicesOutlined';
-import PhoneInTalkOutlinedIcon from '@material-ui/icons/PhoneInTalkOutlined';
 
 
 const Nav = () => {
@@ -14,23 +11,17 @@ const Nav = () => {
                 <ul className='navigation'>
                     <li>
                         <Button>
-                            <Link to='/'>
-                                <AccountCircleOutlinedIcon style={{ color: 'white' }}/>
-                            </Link>
+                            <Link to='/'>About Me</Link>
                         </Button>
                     </li>
                     <li>
                         <Button>
-                            <Link to='/Work'>
-                                <DevicesOutlinedIcon style={{ color: 'white' }}/>
-                            </Link>
+                            <Link to='/Work'>Work</Link>
                         </Button>
                     </li>
                     <li>
                         <Button>
-                            <Link to='/Contact'>
-                                <PhoneInTalkOutlinedIcon style={{ color: 'white' }}/>
-                            </Link>
+                            <Link to='/Contact'>Contact</Link>
                         </Button>
                     </li>
                 </ul>
