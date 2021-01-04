@@ -62,25 +62,26 @@ export let Data = [
     },
     {
       id:4,
-      title:'Mini Memo',
+      title:'My Expense Manager',
       href:'',
-      github:'https://github.com/saepak/movieApp',
+      github:'https://github.com/saepak/expense-tracker',
       group: false,
       skills: [
         { skill:'React'}, 
-        { skill:'Apollo'},
-        { skill:'GraphQL'},
+        { skill:'React-Hooks'},
+        { skill:'Google OAuth'},
+        { skill:'Ant-Design'},
       ],
       pic: require('./../../img/sample.png'),
-      desc:'A simple note app that enables users to keep track of their tasks, ideas and goals.',
+      desc: 'A simple management app that enables users to track their expense.',
       roles: [
-        { role:'Built a server storing data using GraphQL to extend my knowledge to the back-end development.'},
-        { role:'Used Apollo.js for easy management of the data.'},
+        { role:'Built features to create and submit expenses for easy budgeting.'},
+        { role:'Used Google OAuth for secure delegated access.'},
       ]
     },
     {
       id:5,
-      title:'Quick Recipe',
+      title:'Quick Recipes',
       href:'',
       github:'https://github.com/saepak/RecipeApp',
       group: false,
@@ -90,7 +91,7 @@ export let Data = [
         { skill:'Edamam API'}, 
       ],
       pic: require('./../../img/sample.png'),
-      desc:'A quick recipe app for ingredients in your kitchen.',
+      desc:'A library of recipes that makes cooking simple.',
       roles: [
         { role:'Fetched Edamam API to provide to display recipes and cooking information.'},
         { role:'Created search function to make it easy to find the recipe based on ingredients.'},

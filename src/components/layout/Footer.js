@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer className='footerBox'>
-            Saebyeol Pak Portfolio Website
+            Sae Pak Portfolio Website
         </footer>
     )
 }
