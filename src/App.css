@@ -399,7 +399,7 @@
 
 .workBox .cardBox {
   box-sizing: border-box;
-  padding: 25px 18px 55px;
+  padding: 25px 18px 60px;
   width: 100%;
   height: 100%;
   position: relative;
@@ -408,6 +408,28 @@
   box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.1);
   border: 1px solid #f1f1f1;
 }
+
+
+.workBox .cardBox:hover {
+  background-color: #f2f2f2;
+}
+
+.workBox .cardBox a {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  margin-left: -55px;
+  display: inline-block;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.workBox .cardBox:hover a {
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
 
 .workBox .cardTitle {
   padding-top: 18px;
@@ -428,15 +450,6 @@
   font-size: 14px;
 }
 
-.workBox a {
-  position: absolute;
-  bottom: 8px;
-  left: 50%;
-  margin-left: -55px;
-  display: inline-block;
-  padding: 10px;
-  font-size: 14px;
-}
 
 .workBox .group {
   text-align: left;
