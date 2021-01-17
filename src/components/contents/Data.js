@@ -90,7 +90,7 @@ export let Data = [
         { skill:'React-Hooks'}, 
         { skill:'Edamam API'}, 
       ],
-      pic: require('./../../img/sample.png'),
+      pic: require('./../../img/work05.png'),
       desc:'A library of recipes that makes cooking simple.',
       roles: [
         { role:'Fetched Edamam API to provide to display recipes and cooking information.'},
