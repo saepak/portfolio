@@ -70,6 +70,7 @@ export let Data = [
         { skill:'React'}, 
         { skill:'React-Hooks'},
         { skill:'Google OAuth'},
+        { skill:'Chart-JS'},
         { skill:'Ant-Design'},
       ],
       pic: require('./../../img/sample.png'),
@@ -77,6 +78,7 @@ export let Data = [
       roles: [
         { role:'Built features to create and submit expenses for easy budgeting.'},
         { role:'Used Google OAuth for secure delegated access.'},
+        { role:'Created a chart to visualize expenses'},
       ]
     },
     {
