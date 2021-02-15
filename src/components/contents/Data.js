@@ -12,7 +12,7 @@ export let Data = [
         { skill:'Material-UI'},
         { skill:'SASS'}
       ],
-      pic: require('./../../img/work01.png'),
+      pic: require('./../../img/work1.png'),
       desc:'A property management system for professional real estate agents.',
       roles: [
         { role:'Built the front-end of Easy Realty System’s property lists and fetched API using React.js, React Hooks and Material-UI.'},
@@ -31,7 +31,7 @@ export let Data = [
         { skill:'React-Hooks' },
         { skill:'Native-base' },
       ],
-      pic: require('./../../img/work02.png'),
+      pic: require('./../../img/work2.png'),
       desc:'An all-in-one group management solution with 7 plug-ins',
       roles: [
         { role:'Collaborated with other students to plan, executed a native app.' },
@@ -52,7 +52,7 @@ export let Data = [
         { skill:'Material-UI'},
         { skill:'TMDB API'},
       ],
-      pic: require('./../../img/work04.png'),
+      pic: require('./../../img/work3.png'),
       desc:'A web app that lets you search for movies and TV shows.',
       roles: [
         { role:'Created search and filter features using React.js.'},
@@ -73,7 +73,7 @@ export let Data = [
         { skill:'Chart-JS'},
         { skill:'Ant-Design'},
       ],
-      pic: require('./../../img/sample.png'),
+      pic: require('./../../img/work4.png'),
       desc: 'A simple management app that enables users to track their expense.',
       roles: [
         { role:'Built features to create and submit expenses for easy budgeting.'},
@@ -92,7 +92,7 @@ export let Data = [
         { skill:'React-Hooks'}, 
         { skill:'Edamam API'}, 
       ],
-      pic: require('./../../img/work05.png'),
+      pic: require('./../../img/work5.png'),
       desc:'A library of recipes that makes cooking simple.',
       roles: [
         { role:'Fetched Edamam API to provide to display recipes and cooking information.'},
