@@ -1,25 +1,25 @@
 
 export let Data = [
-    {
-      id:1,
-      title:'Easy Realty System',
-      href:'',
-      github:'https://github.com/jyotSarup/ez.dashboard',
-      group: true,
-      skills: [
-        { skill:'React'}, 
-        { skill:'React-Hooks'},
-        { skill:'Material-UI'},
-        { skill:'SASS'}
-      ],
-      pic: require('./../../img/work1.png'),
-      desc:'A property management system for professional real estate agents.',
-      roles: [
-        { role:'Built the front-end of Easy Realty System’s property lists and fetched API using React.js, React Hooks and Material-UI.'},
-        { role:'Styled components with SASS for logical code organization.'},
-        { role:'Tested all features for cross browser and multiple devices compatibility.'},
-      ]
-    },
+    // {
+    //   id:1,
+    //   title:'Easy Realty System',
+    //   href:'',
+    //   github:'https://github.com/jyotSarup/ez.dashboard',
+    //   group: true,
+    //   skills: [
+    //     { skill:'React'}, 
+    //     { skill:'React-Hooks'},
+    //     { skill:'Material-UI'},
+    //     { skill:'SASS'}
+    //   ],
+    //   pic: require('./../../img/work1.png'),
+    //   desc:'A property management system for professional real estate agents.',
+    //   roles: [
+    //     { role:'Built the front-end of Easy Realty System’s property lists and fetched API using React.js, React Hooks and Material-UI.'},
+    //     { role:'Styled components with SASS for logical code organization.'},
+    //     { role:'Tested all features for cross browser and multiple devices compatibility.'},
+    //   ]
+    // },
     {
       id:2,
       title:'Kovan',
@@ -32,7 +32,7 @@ export let Data = [
         { skill:'Native-base' },
       ],
       pic: require('./../../img/work2.png'),
-      desc:'An all-in-one group management solution with 7 plug-ins',
+      desc:'An all-in-one group management solution with seven different plug-ins.',
       roles: [
         { role:'Collaborated with other students to plan, executed a native app.' },
         { role:'Built and implemented to-do list and poll plug-in with React Native and React Hooks.' },
@@ -53,7 +53,7 @@ export let Data = [
         { skill:'TMDB API'},
       ],
       pic: require('./../../img/work3.png'),
-      desc:'A web app that lets you search for movies and TV shows.',
+      desc:'A web app that lets you search for movies and TV shows. Browse through your favorite shows!',
       roles: [
         { role:'Created search and filter features using React.js.'},
         { role:'Fetched TMDB Movie API to provide massive data about movies and TV shows.'},
