@@ -21,7 +21,7 @@ export let Data = [
     //   ]
     // },
     {
-      id:2,
+      id: 1,
       title:'Kovan',
       href:'https://kovanapp.com/',
       github:'https://github.com/bivt-cap/bivt-frontend',
@@ -42,7 +42,7 @@ export let Data = [
       ]
     },
     {
-      id:3,
+      id:2,
       title:'Movie Box',
       href:'',
       github:'https://github.com/saepak/movieApp',
@@ -61,7 +61,7 @@ export let Data = [
       ]
     },
     {
-      id:4,
+      id:3,
       title:'My Expense Manager',
       href:'',
       github:'https://github.com/saepak/expense-tracker',
@@ -78,25 +78,27 @@ export let Data = [
       roles: [
         { role:'Built features to create and submit expenses for easy budgeting.'},
         { role:'Used Google OAuth for secure delegated access.'},
-        { role:'Created a chart to visualize expenses'},
+        { role:'Created a chart to visualize expenses.'},
       ]
     },
     {
-      id:5,
-      title:'Quick Recipes',
+      id:4,
+      title:'Pixabay Image Gallery',
       href:'',
-      github:'https://github.com/saepak/RecipeApp',
+      github:'https://github.com/saepak/image-gallery',
       group: false,
       skills: [
         { skill:'React'}, 
         { skill:'React-Hooks'}, 
-        { skill:'Edamam API'}, 
+        { skill:'Tailwind CSS'}, 
+        { skill:'Pixabay API'}, 
       ],
       pic: require('./../../img/work5.png'),
       desc:'A library of recipes that makes cooking simple.',
       roles: [
-        { role:'Fetched Edamam API to provide to display recipes and cooking information.'},
-        { role:'Created search function to make it easy to find the recipe based on ingredients.'},
+        { role:'Fetched Pixabay API for searching and retrieving free images.'},
+        { role:'Created search function to make it easy to find images.'},
+        { role:'Used Tildwind css to make the styling process faster.'},
       ]
     },
 ]
