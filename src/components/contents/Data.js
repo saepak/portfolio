@@ -3,7 +3,7 @@ export let Data = [
     // {
     //   id:1,
     //   title:'Easy Realty System',
-    //   href:'',
+    //   demo:'',
     //   github:'https://github.com/jyotSarup/ez.dashboard',
     //   group: true,
     //   skills: [
@@ -23,7 +23,7 @@ export let Data = [
     {
       id: 1,
       title:'Kovan',
-      href:'https://kovanapp.com/',
+      demo:'https://kovanapp.com/',
       github:'https://github.com/bivt-cap/bivt-frontend',
       group: true,
       skills: [
@@ -34,7 +34,7 @@ export let Data = [
       pic: require('./../../img/work2.png'),
       desc:'An all-in-one group management solution with seven different plug-ins.',
       roles: [
-        { role:'Collaborated with other students to plan, executed a native app.' },
+        { role:'Collaborated with team members to plan and execute a native app.' },
         { role:'Built and implemented to-do list and poll plug-in with React Native and React Hooks.' },
         { role:'Created graphs for poll plug-in with SVG for scalability and easy editing.' },
         { role:'Styled the app with Native-Base to reduce the built time.' },
@@ -44,7 +44,7 @@ export let Data = [
     {
       id:2,
       title:'Movie Box',
-      href:'',
+      demo:'https://saepak.github.io/movieapp',
       github:'https://github.com/saepak/movieApp',
       group: false,
       skills: [
@@ -63,7 +63,7 @@ export let Data = [
     {
       id:3,
       title:'My Expense Manager',
-      href:'',
+      demo:'https://saepak.github.io/expense-tracker',
       github:'https://github.com/saepak/expense-tracker',
       group: false,
       skills: [
@@ -77,14 +77,14 @@ export let Data = [
       desc: 'A simple management app that enables users to track their expense.',
       roles: [
         { role:'Built features to create and submit expenses for easy budgeting.'},
-        { role:'Used Google OAuth for secure delegated access.'},
+        { role:'Used Google OAuth to keep data safe and provide strong authentication.'},
         { role:'Created a chart to visualize expenses.'},
       ]
     },
     {
       id:4,
       title:'Pixabay Image Gallery',
-      href:'',
+      demo:'https://saepak.github.io/image-gallery',
       github:'https://github.com/saepak/image-gallery',
       group: false,
       skills: [
@@ -94,11 +94,11 @@ export let Data = [
         { skill:'Pixabay API'}, 
       ],
       pic: require('./../../img/work5.png'),
-      desc:'A library of recipes that makes cooking simple.',
+      desc:'A high quality image library with Pixabay API.',
       roles: [
-        { role:'Fetched Pixabay API for searching and retrieving free images.'},
-        { role:'Created search function to make it easy to find images.'},
-        { role:'Used Tildwind css to make the styling process faster.'},
+        { role:'Fetched Pixabay API for retrieving free images.'},
+        { role:'Created a search function to make it easy to find images.'},
+        { role:'Used Tailwind CSS to make the styling process faster.'},
       ]
     },
 ]

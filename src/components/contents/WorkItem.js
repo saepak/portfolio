@@ -27,13 +27,13 @@ const WorkItem = ({match}) => {
             <div className='workItemBox'>
                  <h3>{data.title}</h3>
                  <div className='desc'>{data.desc}</div>
-                {
-                    data.href.length > 1 ? 
+                {/* {
+                    data.demo.length > 1 ? 
                     <div className='link'>
-                        <a href={data.href} target='_blank'>{data.href}</a>
+                        <a href={data.demo} target='_blank'>{data.demo}</a>
                     </div> : 
                     ''
-                }
+                } */}
                 <div className='skills'>
                     { data.skills.map((item)=> {
                         return(
@@ -56,6 +56,16 @@ const WorkItem = ({match}) => {
                     </ul>
                 </div>
                 <div className='btnWrapper'>
+
+                    <Link href={data.demo} target='_blank' style={{textDecoration:'none', marginRight:10}}>
+                        <Button 
+                            className='btnP' 
+                            variant='contained'
+                        >
+                            {data.title == 'Kovan' ? 'Website' : 'Live Demo'}
+                        </Button>
+                    </Link>
+
                     <Link href={data.github} target='_blank' style={{textDecoration:'none'}}>
                         <Button 
                             className='btnP' 

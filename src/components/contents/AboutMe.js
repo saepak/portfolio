@@ -19,7 +19,7 @@ const AboutMe = () => {
                         <li>experienced in implementing responsive, cross-browser web products.</li>
                         <li>have hands-on experience in building websites and web apps with React.js, Rest API and UI framework.</li>
                         <li>familiar with using source control software.</li>
-                        <li>have a good understanding of wireframes and user Experience.</li>
+                        <li>have a good understanding of wireframes and user experience.</li>
                     </ul>
                     <p>Find out more about me!</p>
 
