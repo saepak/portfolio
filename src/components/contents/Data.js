@@ -94,7 +94,7 @@ export let Data = [
         { skill:'Pixabay API'}, 
       ],
       pic: require('./../../img/work5.png'),
-      desc:'A high quality image library with Pixabay API.',
+      desc:'A high quality image library by Pixabay API.',
       roles: [
         { role:'Fetched Pixabay API for retrieving free images.'},
         { role:'Created a search function to make it easy to find images.'},
