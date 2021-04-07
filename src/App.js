@@ -48,7 +48,7 @@ const App = () => {
             <Route path="/Work/:id" component={WorkItem} />
             <Route path="/Splash" component={Splash} />
           </Switch>
-          <Footer />
+          {/* <Footer /> */}
       </div>
     </Router>
   );

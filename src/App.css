@@ -7,12 +7,14 @@
 /***  Common  ***/
 
 .App {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   min-width: 320px;
+  min-height: 100%;
   text-align: center;
   font-family: 'Montserrat', sans-serif!important;
   line-height: 1.4!important;
+  position: relative;
 }
 
 .MuiTypography-h6, .MuiTypography-body1 {
@@ -22,7 +24,7 @@
 
 .subBox {
   min-height: 450px;
-  padding: 0 0 40px 0;
+  padding: 0 0 80px 0;
 }
 
 .subTitle {
@@ -186,7 +188,7 @@
 
 .headerBox {
   width: 100%;
-  height: 200px;
+  height: 25vh;
   background:#02007B url("./img/headerBG.jpg") no-repeat 50% 0;
   background-size: auto 100%;
   transition: ease-in .2s;
@@ -199,20 +201,20 @@
 
 .headerBox .me {
   position: absolute;
-  top: 30px;
+  top: 40%;
   left: 50%;
   width: 100px;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, -50%);
   animation: 2s linear 3.5s meHeader;
 }
 
 @keyframes meHeader {
-  0%  { top: -100px; }
-  70% { top: 30px; }
-  80% { top: 20px; }
-  90% { top: 30px; }
-  95% { top: 25px; }
-  100% { top: 30px; }
+  0%  { top: -100%; }
+  70% { top: 40%; }
+  80% { top: 30%; }
+  90% { top: 40%; }
+  95% { top: 35%; }
+  100% { top: 40%; }
 }
 
 
@@ -630,11 +632,21 @@
   }
 }
 
+@media screen and (min-width : 1980px) {
+  .headerBox .me {
+    width: 150px;
+    height: auto;
+    transition: ease-in .2s;
+  }
+}
 
 
 /***  Footer ***/
 
 .footerBox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
   padding: 25px 0;
   background-color: #f1f1f1;
