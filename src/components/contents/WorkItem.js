@@ -58,12 +58,14 @@ const WorkItem = ({match}) => {
                 <div className='btnWrapper'>
 
                     <Link href={data.demo} target='_blank' style={{textDecoration:'none', marginRight:10}}>
+                       {data.title == 'Kovan' ? '' :
                         <Button 
                             className='btnP' 
                             variant='contained'
                         >
-                            {data.title == 'Kovan' ? 'Website' : 'Live Demo'}
+                            Live Demo
                         </Button>
+                        }
                     </Link>
 
                     <Link href={data.github} target='_blank' style={{textDecoration:'none'}}>
