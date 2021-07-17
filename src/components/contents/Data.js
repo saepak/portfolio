@@ -1,25 +1,5 @@
 
 export let Data = [
-    // {
-    //   id:1,
-    //   title:'Easy Realty System',
-    //   demo:'',
-    //   github:'https://github.com/jyotSarup/ez.dashboard',
-    //   group: true,
-    //   skills: [
-    //     { skill:'React'}, 
-    //     { skill:'React-Hooks'},
-    //     { skill:'Material-UI'},
-    //     { skill:'SASS'}
-    //   ],
-    //   pic: require('./../../img/work1.png'),
-    //   desc:'A property management system for professional real estate agents.',
-    //   roles: [
-    //     { role:'Built the front-end of Easy Realty System’s property lists and fetched API using React.js, React Hooks and Material-UI.'},
-    //     { role:'Styled components with SASS for logical code organization.'},
-    //     { role:'Tested all features for cross browser and multiple devices compatibility.'},
-    //   ]
-    // },
     {
       id: 1,
       title:'Kovan',
@@ -83,6 +63,26 @@ export let Data = [
     },
     {
       id:4,
+      title:'Landing page',
+      demo:'https://saepak.github.io/cocacola_landing_page/',
+      github:'https://github.com/saepak/cocacola_landing_page',
+      group: false,
+      skills: [
+        { skill:'Vanilla javascript'}, 
+        { skill:'Sass'}, 
+        { skill:'Swiper.js'}, 
+        { skill:'Font Awesome'}, 
+      ],
+      pic: require('./../../img/work6.png'),
+      desc:'A fully responsive Coca-cola landing page.',
+      roles: [
+        { role:'Styled the page using Sass.'},
+        { role:'Made touch movement interaction on the slider by Swiper.js.'},
+        { role:'Created a vertical image slider to display pictures.'},
+      ]
+    },
+    {
+      id:5,
       title:'Pixabay Image Gallery',
       demo:'https://saepak.github.io/image-gallery',
       github:'https://github.com/saepak/image-gallery',
