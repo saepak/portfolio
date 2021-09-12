@@ -1,28 +1,67 @@
 
 export let Data = [
+    // {
+    //   id: 1,
+    //   title:'Kovan',
+    //   demo:'https://kovanapp.com/',
+    //   github:'https://github.com/bivt-cap/bivt-frontend',
+    //   group: true,
+    //   skills: [
+    //     { skill:'React-Native' }, 
+    //     { skill:'React-Hooks' },
+    //     { skill:'Native-base' },
+    //   ],
+    //   pic: require('./../../img/work2.png'),
+    //   desc:'An all-in-one group management solution with seven different plug-ins.',
+    //   roles: [
+    //     { role:'Collaborated with team members to plan and execute a native app.' },
+    //     { role:'Built and implemented to-do list and poll plug-in with React Native and React Hooks.' },
+    //     { role:'Created graphs for poll plug-in with SVG for scalability and easy editing.' },
+    //     { role:'Styled the app with Native-Base to reduce the built time.' },
+    //     { role:'Made the promotional website using React.js. to show the seven different features and marketing plans.' },
+    //   ]
+    // },
     {
       id: 1,
-      title:'Kovan',
-      demo:'https://kovanapp.com/',
-      github:'https://github.com/bivt-cap/bivt-frontend',
+      title:'Autoland',
+      demo:'http://cha894.com/',
+      github:'',
       group: true,
       skills: [
-        { skill:'React-Native' }, 
-        { skill:'React-Hooks' },
-        { skill:'Native-base' },
+        { skill:'HTML' },
+        { skill:'CSS' },
+        { skill:'jQuery' },
       ],
-      pic: require('./../../img/work2.png'),
-      desc:'An all-in-one group management solution with seven different plug-ins.',
+      pic: require('./../../img/work8.png'),
+      desc:'An online used car marketplace with a large amount of inventory.',
       roles: [
-        { role:'Collaborated with team members to plan and execute a native app.' },
-        { role:'Built and implemented to-do list and poll plug-in with React Native and React Hooks.' },
-        { role:'Created graphs for poll plug-in with SVG for scalability and easy editing.' },
-        { role:'Styled the app with Native-Base to reduce the built time.' },
-        { role:'Made the promotional website using React.js. to show the seven different features and marketing plans.' },
+        { role:'Collaborated with designers and back-end developers.' },
+        { role:'Developed and maintained the user interface.' },
+        { role:'Created images sliders and sticky banners using jQuery.' },
+        { role:'Changed and updated the content on request.' },
+      ]
+    },
+
+    {
+      id: 2,
+      title:'Happy car',
+      demo:'http://blue.hupark.com/',
+      github:'',
+      group: true,
+      skills: [
+        { skill:'HTML' },
+        { skill:'CSS' },
+        { skill:'jQuery' },
+      ],
+      pic: require('./../../img/work9.png'),
+      desc:'A web application that helps buyers searching for used cars.',
+      roles: [
+        { role:'Developed web applications using HTML, CSS and jQuery.' },
+        { role:'Fixed bugs, tested for usability and updated the content.' },
       ]
     },
     {
-      id:2,
+      id:3,
       title:'Movie Box',
       demo:'https://saepak.github.io/movieapp',
       github:'https://github.com/saepak/movieApp',
@@ -41,7 +80,7 @@ export let Data = [
       ]
     },
     {
-      id:3,
+      id:4,
       title:'My Expense Manager',
       demo:'https://saepak.github.io/expense-tracker',
       github:'https://github.com/saepak/expense-tracker',
@@ -62,7 +101,7 @@ export let Data = [
       ]
     },
     {
-      id:4,
+      id:5,
       title:'Landing page',
       demo:'https://saepak.github.io/cocacola_landing_page/',
       github:'https://github.com/saepak/cocacola_landing_page',
@@ -82,7 +121,7 @@ export let Data = [
       ]
     },
     {
-      id:5,
+      id:6,
       title:'Pixabay Image Gallery',
       demo:'https://saepak.github.io/image-gallery',
       github:'https://github.com/saepak/image-gallery',

@@ -9,7 +9,7 @@ import WorkItem from './components/contents/WorkItem'
 import Contact from './components/contents/Contact'
 import Splash from './components/layout/Splash'
 import Header from './components/layout/Header'
-import Footer from './components/layout/Footer'
+
 
 /* Css */
 import './App.css';
@@ -48,7 +48,6 @@ const App = () => {
             <Route path="/Work/:id" component={WorkItem} />
             <Route path="/Splash" component={Splash} />
           </Switch>
-          {/* <Footer /> */}
       </div>
     </Router>
   );
