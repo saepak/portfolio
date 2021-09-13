@@ -45,7 +45,7 @@ export let Data = [
     {
       id: 2,
       title:'Happy car',
-      demo:'http://blue.hupark.com/',
+      demo:'https://play.google.com/store/apps/details?id=com.happycarservice.sell',
       github:'',
       group: true,
       skills: [
