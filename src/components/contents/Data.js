@@ -1,26 +1,5 @@
 
 export let Data = [
-    // {
-    //   id: 1,
-    //   title:'Kovan',
-    //   demo:'https://kovanapp.com/',
-    //   github:'https://github.com/bivt-cap/bivt-frontend',
-    //   group: true,
-    //   skills: [
-    //     { skill:'React-Native' }, 
-    //     { skill:'React-Hooks' },
-    //     { skill:'Native-base' },
-    //   ],
-    //   pic: require('./../../img/work2.png'),
-    //   desc:'An all-in-one group management solution with seven different plug-ins.',
-    //   roles: [
-    //     { role:'Collaborated with team members to plan and execute a native app.' },
-    //     { role:'Built and implemented to-do list and poll plug-in with React Native and React Hooks.' },
-    //     { role:'Created graphs for poll plug-in with SVG for scalability and easy editing.' },
-    //     { role:'Styled the app with Native-Base to reduce the built time.' },
-    //     { role:'Made the promotional website using React.js. to show the seven different features and marketing plans.' },
-    //   ]
-    // },
     {
       id: 1,
       title:'Autoland',
@@ -61,7 +40,28 @@ export let Data = [
       ]
     },
     {
-      id:3,
+      id: 3,
+      title:'Kovan',
+      demo:'https://github.com/bivt-cap/bivt-frontend',
+      github:'https://github.com/bivt-cap/bivt-frontend',
+      group: true,
+      skills: [
+        { skill:'React-Native' }, 
+        { skill:'React-Hooks' },
+        { skill:'Native-base' },
+      ],
+      pic: require('./../../img/work2.png'),
+      desc:'An all-in-one group management solution with seven different plug-ins.',
+      roles: [
+        { role:'Collaborated with team members to plan and execute a native app.' },
+        { role:'Built and implemented to-do list and poll plug-in with React Native and React Hooks.' },
+        { role:'Created graphs for poll plug-in with SVG for scalability and easy editing.' },
+        { role:'Styled the app with Native-Base to reduce the built time.' },
+        { role:'Made the promotional website using React.js. to show the seven different features and marketing plans.' },
+      ]
+    },
+    {
+      id:4,
       title:'Movie Box',
       demo:'https://saepak.github.io/movieapp',
       github:'https://github.com/saepak/movieApp',
@@ -80,7 +80,7 @@ export let Data = [
       ]
     },
     {
-      id:4,
+      id:5,
       title:'My Expense Manager',
       demo:'https://saepak.github.io/expense-tracker',
       github:'https://github.com/saepak/expense-tracker',
@@ -101,7 +101,7 @@ export let Data = [
       ]
     },
     {
-      id:5,
+      id:6,
       title:'Landing page',
       demo:'https://saepak.github.io/cocacola_landing_page/',
       github:'https://github.com/saepak/cocacola_landing_page',
@@ -121,7 +121,7 @@ export let Data = [
       ]
     },
     {
-      id:6,
+      id:7,
       title:'Pixabay Image Gallery',
       demo:'https://saepak.github.io/image-gallery',
       github:'https://github.com/saepak/image-gallery',

@@ -58,12 +58,21 @@ const WorkItem = ({match}) => {
                 <div className='btnWrapper'>
 
                     <Link href={data.demo} target='_blank' style={{textDecoration:'none', marginRight:10}}>
-                        <Button 
-                            className='btnP' 
-                            variant='contained'
-                        >
-                            Live Demo
-                        </Button>
+                        {   data.title == 'Kovan' ? 
+                            <Button 
+                                className='btnP' 
+                                variant='contained'
+                                >
+                                View on Github
+                            </Button>
+                            :
+                            <Button 
+                                className='btnP' 
+                                variant='contained'
+                            >
+                                Live Demo
+                            </Button>
+                        }
                     </Link>
 
                     <Link href={data.github} target='_blank' style={{textDecoration:'none'}}>
