@@ -10,7 +10,7 @@ const AboutMe = () => {
             <div className='aboutMeBox'>
                 <h1 className='subTitle'>About Me</h1>
                 <div className='aboutMeDetail'>
-                    <h3>Hi, I’m Sae Pak, Vancouver based front-end developer.</h3>
+                    <h3>Hi, I’m Hannah Pak, Vancouver based front-end developer.</h3>
                     <p>Since starting my journey as a UI developer, I have enjoyed the process of making web projects that are easy to use and accessible to all. I love to learn new technology and keep track of lessons learned.</p>
                     <br></br>
                     <p>I / I am...</p>
