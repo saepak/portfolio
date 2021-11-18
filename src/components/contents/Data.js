@@ -140,4 +140,26 @@ export let Data = [
         { role:'Used Tailwind CSS to make the styling process faster.'},
       ]
     },
+    // {
+    //   id:8,
+    //   title:'Pixabay Image Gallery',
+    //   demo:'https://the-world-air-quality.netlify.app/',
+    //   github:'https://github.com/saepak/world-air-quality',
+    //   group: false,
+    //   skills: [
+    //     { skill:'React.js'}, 
+    //     { skill:'Chart.js'}, 
+    //     { skill:'Air Quality API'}, 
+    //     { skill:'Countries & Cities API'}, 
+    //     { skill:'Netlify'}
+    //   ],
+    //   pic: require('./../../img/work10.png'),
+    //   desc:'A single page web app that allows the user to select a city and show the AQI forecast.',
+    //   roles: [
+    //     { role:'Fetched Countries & Cities API to select a city with an auto-complete text box.'},
+    //     { role:'Created a graph showing the AQI forecast for the next few days.'},
+    //     { role:'Displayed the geo location information for the selected city.'},
+   //      { role:'Deployed the website on Netlify.'},
+    //   ]
+    // },
 ]
