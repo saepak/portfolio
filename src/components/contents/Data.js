@@ -1,46 +1,30 @@
 
 export let Data = [
-    {
-      id: 1,
-      title:'Autoland',
-      demo:'http://cha894.com/',
-      github:'',
-      group: true,
-      skills: [
-        { skill:'HTML' },
-        { skill:'CSS' },
-        { skill:'jQuery' },
-      ],
-      pic: require('./../../img/work8.png'),
-      desc:'An online used car marketplace with a large amount of inventory.',
-      roles: [
-        { role:'Collaborated with designers and back-end developers.' },
-        { role:'Developed and maintained the user interface.' },
-        { role:'Created images sliders and sticky banners using jQuery.' },
-        { role:'Changed and updated the content on request.' },
-      ]
-    },
-
+  {
+    id: 1,
+    title:'CompareWise',
+    demo:'https://comparewise.ca/',
+    github:'',
+    group: true,
+    skills: [
+      { skill:'HTML' },
+      { skill:'CSS' },
+      { skill:'JavaScript' },
+      { skill:'jQuery' },
+      { skill:'PHP' },
+      { skill:'WordPress' },
+    ],
+    pic: require('./../../img/work11.png'),
+    desc:'A fair, accessible, and simple approach to financing in Canada.',
+    roles: [
+      { role:'Created custom WordPress themes and plugins using HTML5, CSS3, JavaScript and PHP.' },
+      { role:'Translated wireframes into scalable and reusable code.' },
+      { role:'Maintained the website by identifying issues and providing quick fixes.' },
+      { role:'Ensured cross-platform and browser compatibility.' },
+    ]
+  },
     {
       id: 2,
-      title:'Happy car',
-      demo:'https://play.google.com/store/apps/details?id=com.happycarservice.sell',
-      github:'',
-      group: true,
-      skills: [
-        { skill:'HTML' },
-        { skill:'CSS' },
-        { skill:'jQuery' },
-      ],
-      pic: require('./../../img/work9.png'),
-      desc:'A web application that helps buyers searching for used cars.',
-      roles: [
-        { role:'Developed web applications using HTML, CSS and jQuery.' },
-        { role:'Fixed bugs, tested for usability and updated the content.' },
-      ]
-    },
-    {
-      id: 3,
       title:'Kovan',
       demo:'https://github.com/bivt-cap/bivt-frontend',
       github:'https://github.com/bivt-cap/bivt-frontend',
@@ -61,7 +45,7 @@ export let Data = [
       ]
     },
     {
-      id:4,
+      id:3,
       title:'Movie Box',
       demo:'https://saepak.github.io/movieapp',
       github:'https://github.com/saepak/movieApp',
@@ -80,7 +64,7 @@ export let Data = [
       ]
     },
     {
-      id:5,
+      id:4,
       title:'My Expense Manager',
       demo:'https://saepak.github.io/expense-tracker',
       github:'https://github.com/saepak/expense-tracker',
@@ -100,46 +84,85 @@ export let Data = [
         { role:'Created a chart to visualize expenses.'},
       ]
     },
-    {
-      id:6,
-      title:'Landing page',
-      demo:'https://saepak.github.io/cocacola_landing_page/',
-      github:'https://github.com/saepak/cocacola_landing_page',
-      group: false,
-      skills: [
-        { skill:'Vanilla javascript'}, 
-        { skill:'Sass'}, 
-        { skill:'Swiper.js'}, 
-        { skill:'Font Awesome'}, 
-      ],
-      pic: require('./../../img/work6.png'),
-      desc:'A fully responsive Coca-cola landing page.',
-      roles: [
-        { role:'Styled the page using Sass.'},
-        { role:'Made touch movement interaction on the slider by Swiper.js.'},
-        { role:'Created a vertical image slider to display pictures.'},
-      ]
-    },
-    {
-      id:7,
-      title:'Pixabay Image Gallery',
-      demo:'https://saepak.github.io/image-gallery',
-      github:'https://github.com/saepak/image-gallery',
-      group: false,
-      skills: [
-        { skill:'React'}, 
-        { skill:'React-Hooks'}, 
-        { skill:'Tailwind CSS'}, 
-        { skill:'Pixabay API'}, 
-      ],
-      pic: require('./../../img/work5.png'),
-      desc:'A high quality image library by Pixabay API.',
-      roles: [
-        { role:'Fetched Pixabay API for retrieving free images.'},
-        { role:'Created a search function to make it easy to find images.'},
-        { role:'Used Tailwind CSS to make the styling process faster.'},
-      ]
-    },
+        // {
+    //   id: 1,
+    //   title:'Autoland',
+    //   demo:'http://cha894.com/',
+    //   github:'',
+    //   group: true,
+    //   skills: [
+    //     { skill:'HTML' },
+    //     { skill:'CSS' },
+    //     { skill:'jQuery' },
+    //   ],
+    //   pic: require('./../../img/work8.png'),
+    //   desc:'An online used car marketplace with a large amount of inventory.',
+    //   roles: [
+    //     { role:'Collaborated with designers and back-end developers.' },
+    //     { role:'Developed and maintained the user interface.' },
+    //     { role:'Created images sliders and sticky banners using jQuery.' },
+    //     { role:'Changed and updated the content on request.' },
+    //   ]
+    // },
+
+    // {
+    //   id: 2,
+    //   title:'Happy car',
+    //   demo:'https://play.google.com/store/apps/details?id=com.happycarservice.sell',
+    //   github:'',
+    //   group: true,
+    //   skills: [
+    //     { skill:'HTML' },
+    //     { skill:'CSS' },
+    //     { skill:'jQuery' },
+    //   ],
+    //   pic: require('./../../img/work9.png'),
+    //   desc:'A web application that helps buyers searching for used cars.',
+    //   roles: [
+    //     { role:'Developed web applications using HTML, CSS and jQuery.' },
+    //     { role:'Fixed bugs, tested for usability and updated the content.' },
+    //   ]
+    // },
+    // {
+    //   id:6,
+    //   title:'Landing page',
+    //   demo:'https://saepak.github.io/cocacola_landing_page/',
+    //   github:'https://github.com/saepak/cocacola_landing_page',
+    //   group: false,
+    //   skills: [
+    //     { skill:'Vanilla javascript'}, 
+    //     { skill:'Sass'}, 
+    //     { skill:'Swiper.js'}, 
+    //     { skill:'Font Awesome'}, 
+    //   ],
+    //   pic: require('./../../img/work6.png'),
+    //   desc:'A fully responsive Coca-cola landing page.',
+    //   roles: [
+    //     { role:'Styled the page using Sass.'},
+    //     { role:'Made touch movement interaction on the slider by Swiper.js.'},
+    //     { role:'Created a vertical image slider to display pictures.'},
+    //   ]
+    // },
+    // {
+    //   id:7,
+    //   title:'Pixabay Image Gallery',
+    //   demo:'https://saepak.github.io/image-gallery',
+    //   github:'https://github.com/saepak/image-gallery',
+    //   group: false,
+    //   skills: [
+    //     { skill:'React'}, 
+    //     { skill:'React-Hooks'}, 
+    //     { skill:'Tailwind CSS'}, 
+    //     { skill:'Pixabay API'}, 
+    //   ],
+    //   pic: require('./../../img/work5.png'),
+    //   desc:'A high quality image library by Pixabay API.',
+    //   roles: [
+    //     { role:'Fetched Pixabay API for retrieving free images.'},
+    //     { role:'Created a search function to make it easy to find images.'},
+    //     { role:'Used Tailwind CSS to make the styling process faster.'},
+    //   ]
+    // },
     // {
     //   id:8,
     //   title:'Pixabay Image Gallery',
