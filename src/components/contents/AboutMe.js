@@ -23,7 +23,7 @@ const AboutMe = () => {
                     </ul>
                     <p>Find out more about me!</p>
 
-                    <div className='btnWrapper'>
+                    {/* <div className='btnWrapper'>
                         <Button 
                             className='btnP' 
                             variant='contained'
@@ -31,7 +31,7 @@ const AboutMe = () => {
                         >
                             Download Resume
                         </Button>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
